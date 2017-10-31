@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/sayghteight/Bot-Discord-Relampago/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+_________       .__                                              
+\______   \ ____ |  | _____    _____ ___________     ____   ____  
+ |       _// __ \|  | \__  \  /     \\____ \__  \   / ___\ /  _ \ 
+ |    |   \  ___/|  |__/ __ \|  Y Y  \  |_> > __ \_/ /_/  >  <_> )
+ |____|_  /\___  >____(____  /__|_|  /   __(____  /\___  / \____/ 
+        \/     \/          \/      \/|__|       \//_____/         
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+----------
 
-```markdown
-Syntax highlighted code block
+**Relampago es un bot de gestión de Discord, opensource y en constante actualización.**
+Esta gestionado por División Zero, y es un proyecto a largo plazo que espera no quedarse estancado.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Instalación ##
 
-1. Numbered
-2. List
+Antes de instalar el bot deberás instalar NODEJS en tu servidor, siga los siguientes pasos:
 
-**Bold** and _Italic_ and `Code` text
+> CentOS 6 / RHEL 6
+> curl --silent --location https://rpm.nodesource.com/setup | bash -
+> yum -y install nodejs
+> yum install gcc-c++ make
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+*Relampago para funcionar requiere los siguientes modulos de nodejs, todos son fáciles de conseguir e  instalar.
 
-### Jekyll Themes
+    $ npm install ffmpeg-binaries
+    $ npm install moment
+    $ un codificador de opus, elija uno de abajo:
+    $ npm install opusscript
+    $ npm install node-opus
+    $ Y esto para reproducir YT
+    $ npm install ytdl-core
+    
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sayghteight/Bot-Discord-Relampago/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Versiones soportadas ##
 
-### Support or Contact
+Las siguientes versiones son soportadas por NODEJS:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Arquitecturas disponibles:**
+
+ - i386 (32-bit, no disponible para EL7)
+ - x86_64 (64-bit)
+
+**Versiones de Red Hat® Enterprise Linux® soportadas:**
+
+ - RHEL 5 (32-bit y 64-bit)
+ - RHEL 6 (32-bit y 64-bit)
+ - RHEL 7 (64-bit)
+
+**Versiones de CentOS soportadas:**
+
+ - CentOS 5 (32-bit y 64-bit)
+ - CentOS 6 (32-bit y 64-bit)
+ - CentOS 7 (64-bit)
+
+**Versiones de CloudLinux soportadas:**
+
+ - CloudLinux 6 (32-bit y 64-bit)
+
+
+**Versiones de Fedora soportadas:**
+
+ - Fedora 21 (Twenty One) (32-bit y 64-bit) 
+ - Fedora 20 (Heisenbug)(32-bit y 64-bit) 
+ - Fedora 19 (Schrödinger's Cat) (32-bit y 64-bit)
+
+**Otras distribuciones conocidas como soportadas:**
+
+Oracle Linux (bastante similar a RHEL)
+
+ - Amazon Linux (probada en 2016.03)
+
+*Puedes encontrar información de como instalarlo y otras versiones soportadas desde [nodejs.org](https://nodejs.org/es/download/package-manager/)*
