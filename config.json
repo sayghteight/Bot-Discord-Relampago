@@ -1,0 +1,17 @@
+{
+  "rev": 8,
+  "token":"MzcyNDkzOTM1ODc4MzQwNjA4.DNFAJQ.YODNRhcDJ1LxYmn3_sRE2TnTe_o",
+  "prefix": "-r",
+  
+  "adminIds": [
+    "165484613500796929"
+  ],
+  "commandsRestrictedToAdmins": {
+    "ban": true,
+    "kick": true,
+    "help": false,
+    "ytplay": false,
+    "help": false,
+    "server": false
+  }
+}

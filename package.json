@@ -1,0 +1,22 @@
+{
+  "name": "Relampago - Ultimate BOT",
+  "version": "0.3",
+  "description": ".",
+  "main": "relampago-bot.js",
+  "author": "Sayghteight",
+  "dependencies": {
+    "async": "~0.2.8",
+    "discord.js": "^11.2.1",
+    "socket.io": "~0.9.14"
+    "superagent": "^1.6.1",
+    "ytdl-core": "^0.7.9",
+    "node-opus": "^0.1.11",
+    "git-rev": "^0.2.1"
+  },
+  "scripts": {
+    "start": "node relampago-bot.js"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "license": "ISC"
+}
